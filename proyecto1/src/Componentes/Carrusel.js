@@ -4,15 +4,15 @@ import { Carousel, Button } from "react-bootstrap";
 function Carrusel() {
     const [imagenes, setImagenes] = useState([
         {
-          src: "./martillo.jpg",
+          src: "https://github.com/TheMismisimo/ProyectoDS/blob/81b55415c954a56cf8f10719af49eed3f41880fb/proyecto1/src/Imagenes/martillo.jpg",
           alt: "Imagen 1",
         },
         {
-          src: "./mas1.jpg",
+          src: "https://github.com/TheMismisimo/ProyectoDS/blob/81b55415c954a56cf8f10719af49eed3f41880fb/proyecto1/src/Imagenes/mas1.jpg",
           alt: "Imagen 2",
         },
         {
-          src: "./myd.jpg",
+          src: "https://github.com/TheMismisimo/ProyectoDS/blob/81b55415c954a56cf8f10719af49eed3f41880fb/proyecto1/src/Imagenes/myd.jpg",
           alt: "Imagen 3",
         },
       ]);
