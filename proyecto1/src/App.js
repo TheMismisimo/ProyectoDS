@@ -19,7 +19,7 @@ function App()
     <div className="App">
       <header className="App-header">
         <p>Nuestra pagina del proyecto</p>
-        <p> tamos usando github wiiii </p>
+        <p> tamos usando github wiiii x2</p>
 
 
       </header>
