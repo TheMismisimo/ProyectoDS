@@ -1,0 +1,5 @@
+.carousel-control-prev, .carousel-control-next {
+    width: 4%; /* Ancho deseado */
+    margin-left: 37%; /* Margen izquierdo deseado */
+    margin-right: 37%; /* Margen derecho deseado */
+}
