@@ -18,6 +18,7 @@ function App()
     <div className="App">
       <QueSucede/>  
       <Carrusel/>
+      <p>Esta es la pagina de inicio de la empresa God tier sa</p>
     </div>
   );
 }
