@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import QueSucede from "./Componentes/QueSucede";
+
 
 function retornarX(){
   return Math.trunc(Math.random()*10);
@@ -8,7 +8,6 @@ function retornarX(){
 
 function App() 
 {
-
   const siglo = 21
   const persona = {
     nombre: 'pepe',
@@ -17,12 +16,7 @@ function App()
 
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Nuestra pagina del proyecto</p>
-        <p> tamos usando github wiiii x2 x3</p>
-
-
-      </header>
+      <QueSucede/>  
     </div>
   );
 }
