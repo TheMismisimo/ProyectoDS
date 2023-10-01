@@ -18,8 +18,8 @@ function App()
   return (
     <div className="App">
       <header className="App-header">
-        <p>QUE PASA HIJOS DE LA CORNETA CHUPENLA</p>
-        <p>El v... succiona {siglo} o {retornarX()} toneladas de D</p>
+        <p>Nuestra pagina del proyecto</p>
+        <p> tamos usando github wiiii </p>
 
 
       </header>
