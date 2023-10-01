@@ -1,0 +1,12 @@
+pagina principal: Debe contener informacion de inicio(nav bar) y slide dinamico ///TODOS
+
+segunda pagina: quienes somos(informacion de la empresa, tipo de cliente, a que se dedican) /// Rick
+
+tercera pagina: nosotros ( informacion sobre miembros de la empresa, fecha creacion empresa) /// Armando
+
+cuarta pagina: galeria de imagenes (papa muscumloso) /// Shio
+
+
+quinta pagina: formulario de contactos(Debe capturar nombre, email, asunto y mensaje, validando que todos los
+campos cumplen formato y no existan elementos vacíos) /// TODOS
+
