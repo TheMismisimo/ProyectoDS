@@ -1,5 +1,5 @@
 import QueSucede from "./Componentes/QueSucede";
-
+import Carrusel from "./Componentes/Carrusel";
 
 function retornarX(){
   return Math.trunc(Math.random()*10);
@@ -17,6 +17,7 @@ function App()
   return (
     <div className="App">
       <QueSucede/>  
+      <Carrusel/>
     </div>
   );
 }
