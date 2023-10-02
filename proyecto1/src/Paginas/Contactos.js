@@ -25,12 +25,12 @@ function Contactos() {
     localStorage.setItem('contactos', JSON.stringify(formData));
   }
 
-  function handleSubmit(e){
+  const handleSubmit = (e) =>{
     e.preventDefault();
     saveData();
     setShowModal(true);
   };
-  function handleClose(){
+  const handleClose = () =>{
     setShowModal(false);
   };
   return (
