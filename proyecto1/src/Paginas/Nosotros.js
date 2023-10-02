@@ -1,6 +1,5 @@
 import React from 'react'
 import BarraNav from "../Componentes/BarraNav";
-import '../image001.png'
 
 function Nosotros() {
   return (
@@ -23,7 +22,7 @@ function Nosotros() {
         <p className='justify-content-between'>Gerencia de Seguridad: Bowie Bernardo</p>
       </div>
       <div className='mb-5'>
-        <img src='#' alt='organigrama' className='img-fluid'></img>
+        <img src='image001.jpg' alt='organigrama' className='img-fluid'></img>
       </div>
     </div>
   )
