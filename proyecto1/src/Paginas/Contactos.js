@@ -94,7 +94,7 @@ function Contactos() {
       </form>
       <footer>
         <p className='mb-5'></p>
-        <a href='/'>Pagina principal</a>
+        <a className='justify-content-between' href='/'>Pagina principal</a>
       </footer>
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
