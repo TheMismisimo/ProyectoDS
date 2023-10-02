@@ -22,7 +22,7 @@ function Nosotros() {
         <p className='justify-content-between'>Gerencia de Seguridad: Bowie Bernardo</p>
       </div>
       <div className='mb-5'>
-        <img src='image001.jpg' alt='organigrama' className='img-fluid'></img>
+        <img src='image001.jpg' alt='organigrama' className='d-block w-25 mx-auto'></img>
       </div>
     </div>
   )
