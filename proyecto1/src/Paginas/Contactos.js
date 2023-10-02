@@ -24,10 +24,17 @@ function Contactos() {
   const saveData = () =>{
     localStorage.setItem('contactos', JSON.stringify(formData));
   }
-
+  const getSavedData = () => {
+    const data = localStorage.getItem('contactos');
+    if (data) {
+      const contactos = JSON.parse(data);
+      console.log(contactos);
+    }
+  };
   const handleSubmit = (e) =>{
     e.preventDefault();
     saveData();
+    getSavedData();
     setShowModal(true);
   };
   const handleClose = () =>{
