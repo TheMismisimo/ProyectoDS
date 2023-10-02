@@ -13,7 +13,7 @@ function Contactos() {
   });
   const [showModal, setShowModal] = useState(false); // Estado para mostrar/ocultar el modal
 
-  function handleChange(e){
+  const handleChange = (e) =>{
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -21,8 +21,13 @@ function Contactos() {
     });
   };
 
+  const saveData = () =>{
+    localStorage.setItem('contactos', JSON.stringify(formData));
+  }
+
   function handleSubmit(e){
     e.preventDefault();
+    saveData();
     setShowModal(true);
   };
   function handleClose(){
