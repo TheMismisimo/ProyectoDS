@@ -1,6 +1,6 @@
 import Carrusel from "./Componentes/Carrusel";
 import BarraNav from "./Componentes/BarraNav";
-
+import{useState, useEffect} from 'react';
 
 
 
@@ -18,3 +18,19 @@ function App()
 }
 
 export default App;
+
+
+
+
+
+  const[data, setData]= useState([])
+
+  useEffect(() =>{
+    fetch('https://scratchya.com.ar/react/datos.php')
+    .then((Response)=>{
+      return Response.json()
+    })
+    .then((articulos)=>{
+      setArticulos(articulos)
+    })
+  },[])
