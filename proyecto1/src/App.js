@@ -9,7 +9,7 @@ function App()
   const [articulos, setArticulos] = useState([]);
 
   useEffect(() => {
-    fetch('https://api.example.com/data')
+    fetch('https://rickandmortyapi.com/api/character/1/ ')
       .then((response) => {
         return response.json();
       })
