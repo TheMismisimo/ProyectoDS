@@ -1,4 +1,3 @@
-import QueSucede from "./Componentes/QueSucede";
 import Carrusel from "./Componentes/Carrusel";
 import BarraNav from "./Componentes/BarraNav";
 
