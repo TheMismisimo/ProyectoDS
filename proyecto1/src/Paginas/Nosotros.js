@@ -1,8 +1,10 @@
 import React from 'react'
+import BarraNav from "../Componentes/BarraNav";
 
 function Nosotros() {
   return (
     <div>
+      <BarraNav/>
       <div className='mb-5'>
         <h1>Sobre Nosotros</h1>
       </div>
@@ -22,10 +24,6 @@ function Nosotros() {
       <div className='mb-5'>
         <img src='https://cdn.pixabay.com/photo/2023/10/02/02/10/02-10-47-1_1280.png' className='img-fluid'></img>
       </div>
-      <footer>
-        <p className='mb-5'></p>
-        <a className='justify-content-between' href='/'>Pagina principal</a>
-      </footer>
     </div>
   )
 }

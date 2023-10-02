@@ -1,5 +1,6 @@
 import QueSucede from "./Componentes/QueSucede";
 import Carrusel from "./Componentes/Carrusel";
+import BarraNav from "./Componentes/BarraNav";
 
 
 function retornarX(){
@@ -17,7 +18,7 @@ function App()
 
   return (
     <div className="App">
-      <QueSucede/>  
+      <BarraNav/>
       <p className="mb-5"></p>
       <Carrusel/>
       <p>Esta es la pagina de inicio de la empresa God tier sa</p>

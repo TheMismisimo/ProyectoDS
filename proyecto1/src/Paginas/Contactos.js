@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
 import { Modal, Button } from 'react-bootstrap'; // Importa los componentes de react-bootstrap
+import BarraNav from "../Componentes/BarraNav";
 
 
 function Contactos() {
@@ -29,6 +30,7 @@ function Contactos() {
   };
   return (
     <div className="container">
+      <BarraNav/>
       <h1 className='mb-4'>Contactanos</h1>
       <h5>Escriba sus datos:</h5>
       <form onSubmit={handleSubmit}>
@@ -92,10 +94,6 @@ function Contactos() {
           Enviar
         </button>
       </form>
-      <footer>
-        <p className='mb-5'></p>
-        <a className='justify-content-between' href='/'>Pagina principal</a>
-      </footer>
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Datos enviados</Modal.Title>
