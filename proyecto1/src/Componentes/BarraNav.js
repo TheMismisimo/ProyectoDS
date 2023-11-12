@@ -5,7 +5,7 @@ import '../Estilos/BarraNav.css';
 
 function BarraNav() {
   return (
-    <div>
+    <div className='mb-3'>
         <nav class="navbar navbar-expand-lg bg-custom">
             <div class="container-fluid" >
                 <a class="navbar-brand" href="/">InnovAcción</a>

@@ -1,6 +1,6 @@
 import Carrusel from "./Componentes/Carrusel";
 import BarraNav from "./Componentes/BarraNav";
-
+import "./Estilos/Fondo.css"
 
 
 

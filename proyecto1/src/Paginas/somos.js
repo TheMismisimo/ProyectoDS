@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import BarraNav from "../Componentes/BarraNav";
+import "../Estilos/Fondo.css";
 
 function Somos() {
   const [personaje, setPersonaje] = useState(null);

@@ -1,5 +1,7 @@
 import React from 'react'
 import BarraNav from "../Componentes/BarraNav";
+import "../Estilos/Fondo.css";
+
 
 function Nosotros() {
   return (
