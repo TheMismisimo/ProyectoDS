@@ -1,0 +1,8 @@
+.bg-custom{
+    background-color: #36454F;
+}
+
+.bg-custom .navbar-nav .nav-link {
+    color: #D3D3D3;
+  }
+  

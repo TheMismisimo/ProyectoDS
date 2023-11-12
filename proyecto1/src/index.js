@@ -7,8 +7,6 @@ import Somos from './Paginas/somos';
 import Galeria from './Paginas/Galeria';
 import Nosotros from './Paginas/Nosotros';
 import Contactos from './Paginas/Contactos';
-
-
 import {
   createBrowserRouter,
   RouterProvider,
