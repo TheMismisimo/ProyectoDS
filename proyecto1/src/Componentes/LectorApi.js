@@ -42,7 +42,7 @@ function LectorApi() {
 
   return (
     <div>
-      <div className='row'>
+      <div className='row justify-content-center'>
         {images.map((image, index) => (
           <div className={`col-lg-4 col-md-12 mb-4 mb-lg-0 ${index % 2 === 0 ? 'mx-4' : ''}`}>
             <img
