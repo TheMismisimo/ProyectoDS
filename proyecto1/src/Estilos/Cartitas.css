@@ -38,6 +38,11 @@
   }
   
   .container{
+    max-height: 280px;
+    overflow-y: scroll;
+    width: auto;
+    height: auto;
+    max-height: auto;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
       -webkit-perspective: 1000px;
@@ -117,6 +122,8 @@
       -webkit-perspective: inherit;
               perspective: inherit;
       z-index: 2;
+      overflow: hidden;
+      white-space: nowrap;
   }
   
   .container .back{
