@@ -8,3 +8,5 @@ function Cartitas(){
         </div>
     )
 }
+
+export default Cartitas;
