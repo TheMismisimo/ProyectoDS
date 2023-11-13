@@ -122,7 +122,7 @@
               perspective: inherit;
       z-index: 2;
       overflow: hidden;
-      white-space: nowrap;
+      /*white-space: nowrap;*/
   }
   
   .container .back{
@@ -183,10 +183,16 @@
       width: calc(33.333333% - 2rem);
     }
   }
+  .front .inner p {
+    font-size: 1.5rem;
+  }
   
   @media screen and (max-width: 48rem){
     .col{
       width: calc(50% - 2rem);
+    }
+    .front .inner p {
+      font-size: 1.2rem;
     }
   }
   
@@ -195,4 +201,13 @@
       width: 100%;
       margin: 0 0 2rem 0;
     }
+    .front .inner p {
+      font-size: 1rem;
+    }
   }
+  .container .inner .texto-carta {
+    overflow: hidden;
+    max-height: 100%;
+    text-overflow: ellipsis;
+  }
+
