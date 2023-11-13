@@ -16,6 +16,8 @@ function App()
       <Carrusel/>
       <p className="texto-justificado">¡Bienvenidos a InnovAcción!</p>
       <Cartitas/>
+      <p className="texto-justificado">Descubre cómo InnovAcción puede transformar tu enfoque logístico, abastecimiento y estrategias de ingeniería.</p>
+      <p className="texto-justificado">¡Contacta con nosotros hoy para iniciar una nueva era de innovación y acción en tu empresa!</p>
     </div>
   );
 }
