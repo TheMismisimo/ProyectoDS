@@ -8,22 +8,22 @@ const Carrusel = () => {
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-25 mx-auto"
-          src="https://i.pinimg.com/564x/80/9b/25/809b2577c94c73588f2eebdd1804eae2.jpg"
+          className="d-block w-100 mx-auto"
+          src="fotocarrusel1.png"
           alt="Imagen 1"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-25 mx-auto"
-          src="https://i.pinimg.com/564x/f4/17/16/f41716d65acb3d517fa427b74c3a8e4d.jpg"
+          className="d-block w-100 mx-auto"
+          src="fotocarrusel2.png"
           alt="Imagen 2"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-25 mx-auto"
-          src="https://i.pinimg.com/564x/27/34/1d/27341d18902597797baf196d345ef830.jpg"
+          className="d-block w-100 mx-auto"
+          src="fotocarrusel3.png"
           alt="Imagen 3"
         />
       </Carousel.Item>

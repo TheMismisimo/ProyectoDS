@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function BarraNav() {
   return (
-    <div className='mb-3'>
+    <div >
         <nav class="navbar navbar-expand-lg bg-custom">
             <div class="container-fluid" >
                 <Link class="navbar-brand" to='/'>InnovAcción</Link>

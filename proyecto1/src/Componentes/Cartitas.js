@@ -38,8 +38,9 @@ function Cartitas() {
     ];
   
     return (
-      <Container>
+      <Container className="mb-5">
         <h1>¡Bienvenidos a InnovAcción!</h1>
+        <h5 className="texto-justificado">Descubre cómo InnovAcción puede transformar tu enfoque logístico, abastecimiento y estrategias de ingeniería.</h5>
         <Row className="justify-content-center">
           {cardsData.map((card, index) => (
             <Col
