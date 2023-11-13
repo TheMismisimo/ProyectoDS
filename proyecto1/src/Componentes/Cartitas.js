@@ -21,13 +21,19 @@ function Cartitas() {
         title: "Logística Integral",
         subtitle: "Soluciones logísticas",
         description:
-          "Soluciones logísticas integrales para empresas en busca de un socio confiable en el manejo de su cadena de suministro.",
+          "Confía en nosotros para facilitar cada paso de tu cadena de suministro",
       },
       {
         title: "Comercialización",
-        subtitle: "Servicios logísticas",
+        subtitle: "Abastecimiento",
         description:
-          "Tu fuente confiable para productos al por mayor y al detalle.",
+          "Descubre una nueva forma de abastecimiento con InnovAcción.",
+      },
+      {
+        title: "Servicios de Ingeniería",
+        subtitle: "Análisis y optimización de proyectos",
+        description:
+          "En InnovAcción, la excelencia ingenieril es nuestro compromiso.",
       },
     ];
   
