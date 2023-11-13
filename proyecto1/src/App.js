@@ -14,7 +14,6 @@ function App()
       <BarraNav/>
       <p className="mb-5"></p>
       <Carrusel/>
-      <p className="texto-justificado">¡Bienvenidos a InnovAcción!</p>
       <Cartitas/>
     </div>
   );
