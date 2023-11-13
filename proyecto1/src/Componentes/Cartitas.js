@@ -39,7 +39,7 @@ function Cartitas() {
   
     return (
       <Container>
-        <h1 className="text-center mt-4 mb-5">Cartitas</h1>
+        <h1>¡Bienvenidos a InnovAcción!</h1>
         <Row className="justify-content-center">
           {cardsData.map((card, index) => (
             <Col
