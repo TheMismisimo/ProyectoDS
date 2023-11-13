@@ -3,6 +3,7 @@ import BarraNav from "../Componentes/BarraNav";
 import "../Estilos/Fondo.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Estilos/Justificado.css'
+import ElFooter from '../Componentes/ElFooter';
 
 function Somos() {
  
@@ -28,8 +29,9 @@ function Somos() {
       <h4 className='mb-3 texto-justificado'>Servicios de ingeniería</h4>
       <p className='texto-justificado'>En el mundo de los negocios, la innovación es clave, y en InnovAcción, ofrecemos servicios de ingeniería para llevar tu empresa hacia el futuro. Ya sea que necesites apoyo en proyectos, asesoramiento para licitaciones, implementación de contratos mineros, análisis de proyectos o planificación estratégica, nuestro equipo de ingenieros altamente capacitados está listo para ayudarte.
       </p>
-      <p className='texto-justificado'>Nos especializamos en el análisis y la optimización de procesos, proporcionándote las herramientas necesarias para alcanzar tus metas y explorar nuevas oportunidades de negocio.
+      <p className='texto-justificado mb-5'>Nos especializamos en el análisis y la optimización de procesos, proporcionándote las herramientas necesarias para alcanzar tus metas y explorar nuevas oportunidades de negocio.
       </p>
+      <ElFooter/>
     </div>
   );
 }

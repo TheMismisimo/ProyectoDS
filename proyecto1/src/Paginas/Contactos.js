@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstr
 import { Modal, Button } from 'react-bootstrap'; // Importa los componentes de react-bootstrap
 import BarraNav from "../Componentes/BarraNav";
 import "../Estilos/Fondo.css";
+import ElFooter from '../Componentes/ElFooter';
 
 
 function Contactos() {
@@ -104,7 +105,7 @@ function Contactos() {
               required
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary mb-5">
             Enviar
           </button>
         </form>
@@ -125,6 +126,7 @@ function Contactos() {
           </Modal.Footer>
         </Modal>
       </div>
+      <ElFooter/>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import BarraNav from "../Componentes/BarraNav";
 import "../Estilos/Fondo.css";
 import '../Estilos/Justificado.css'
-
+import ElFooter from '../Componentes/ElFooter';
 
 
 function Nosotros() {
@@ -28,6 +28,7 @@ function Nosotros() {
       <div className='mb-5'>
         <img src='image001.jpg' alt='organigrama' className='d-block w-25 mx-auto'></img>
       </div>
+      <ElFooter/>
     </div>
   )
 }
